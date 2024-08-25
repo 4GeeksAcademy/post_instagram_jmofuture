@@ -1,0 +1,47 @@
+body {
+
+    font-family: Roboto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.post {
+
+    width: 550px;
+    overflow: hidden;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.profile-pic {
+    font-size: 30px;
+    margin-right: 0.5em;
+}
+
+.post-header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column
+}
+
+img {
+    width: 100%;
+}
+
+
+.actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
